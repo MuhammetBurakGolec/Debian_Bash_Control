@@ -42,20 +42,20 @@ print(Style.RESET_ALL + "")
 
     
 if bash == 1 :
-    os.system("bash /usr/local/sbin/UPDATE.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/UPDATE.sh")
     
 elif bash == 2 :
-    os.system("bash /usr/local/sbin/SSH_FTP.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/SSH_FTP.sh")
 
 elif bash == 3 :
-    os.system("bash /usr/local/sbin/UPDATE.sh")
-    os.system("bash /usr/local/sbin/SSH_FTP.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/UPDATE.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/SSH_FTP.sh")
 
 elif bash == 4 :
-    os.system("bash /usr/local/sbin/PROGRAMS.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/PROGRAMS.sh")
 
 elif bash == 5 :
-    os.system("bash /usr/local/sbin/BOOTNET.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/BOOTNET.sh")
 
 elif bash == 6 :
     os.system("clear")
@@ -67,4 +67,4 @@ elif bash == 7 :
 
 
 
-    os.system("bash /usr/local/sbin/ALL_CLOSED.sh")
+    os.system("bash /$HOME/Debian_Bash_Control/ALL_CLOSED.sh")

@@ -1,7 +1,0 @@
-clear
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get autoremove 
-clear
-neofetch
-

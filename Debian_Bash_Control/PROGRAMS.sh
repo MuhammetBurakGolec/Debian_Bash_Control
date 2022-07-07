@@ -15,12 +15,18 @@ sudo apt-get install vsftpd
 sudo apt-get install ssh
 sudo apt-get install python3
 sudo apt-get install pip3
+sudo apt-get install tmux
 sudo apt-get install python
-sudo snap install sublime-text
+sudo snap install --classic sublime-text
+sudo snap install --classic code
 sudo snap install spotify
-sudo snap install libreoffice
-clear
 
+read -p "Do You Want to Install Libre Office ? [ Y / N ]" question
+question = ${questio^^}
+if (($question == 'Y' )) || (( ${question^^} =='YES')) 
+    then sudo snap install libreoffice
+fi
+clear
 
 
 

@@ -68,6 +68,6 @@ while bool == True :
 
     elif bash == 7 :
         os.system("bash /$HOME/Debian_Bash_Control/ALL_CLOSED.sh")
-    elif bash == 8 :
+    elif bash < 1 and bash > 7:
         bool = False
 os.system("clear")
